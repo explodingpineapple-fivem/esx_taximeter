@@ -20,7 +20,7 @@ The meter menu can be launched by using LEFTCTRL + G
 Run this command inside of your server-data/resources folder:
 
 ``` sh
-git clone https://github.com/michaelhodgejr/esx_taximeter.git [esx]/esx_taximeter
+git clone https://github.com/explodingpineapple-fivem/esx_taximeter.git [esx]/esx_taximeter
 ```
 
 Inside \[esx\]/esx_taximeter, create your config.lua file from the default, and edit it as desired.
