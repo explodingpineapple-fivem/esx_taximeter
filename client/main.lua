@@ -285,12 +285,12 @@ function MeterSetRate()
         if (string.len(rate) > 0) then
             local rate = tonumber(rate)
 
-            if (rate < 99999 and rate > 1) then
+            if (rate < 99999 and rate > 0) then
               meterAttrs['rateAmount'] = rate
               meterAttrs['currentFare'] = 0
               playersInVehicle = {}
-              showConfig()
             end
+            showConfig()
 
             break
           else
